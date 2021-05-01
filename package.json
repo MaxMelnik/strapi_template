@@ -1,0 +1,40 @@
+{
+  "name": "strapi-template",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A Strapi application",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "dependencies": {
+    "babel-eslint": "^10.1.0",
+    "strapi": "3.6.1",
+    "strapi-admin": "3.6.1",
+    "strapi-connector-mongoose": "3.6.1",
+    "strapi-plugin-content-manager": "3.6.1",
+    "strapi-plugin-content-type-builder": "3.6.1",
+    "strapi-plugin-email": "3.6.1",
+    "strapi-plugin-i18n": "3.6.1",
+    "strapi-plugin-upload": "3.6.1",
+    "strapi-plugin-users-permissions": "3.6.1",
+    "strapi-utils": "3.6.1"
+  },
+  "author": {
+    "name": "A Strapi developer"
+  },
+  "strapi": {
+    "uuid": "f41c1103-cac3-4e6f-bbe7-b5b4901a8de7"
+  },
+  "engines": {
+    "node": ">=10.16.0 <=14.x.x",
+    "npm": "^6.0.0"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^7.25.0",
+    "eslint-config-google": "^0.14.0"
+  }
+}
