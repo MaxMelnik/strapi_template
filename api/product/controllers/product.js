@@ -5,4 +5,9 @@
  * to customize this controller
  */
 
-module.exports = {};
+module.exports = {
+  async hello(ctx) {
+    console.log(ctx);
+    ctx.send({hi: 'Hello Product!'}, 201);
+  },
+};
