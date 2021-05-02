@@ -7,4 +7,4 @@ module.exports = {
       enabled: true,
     },
   },
-}; // ssh check
+};
